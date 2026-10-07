@@ -1,12 +1,9 @@
-def faktorial(x):
-
-    if x == 1:
-        return 1
-    vysledek = x * faktorial(x - 1)
-
-    return vysledek
+def sude_nebo_liche(cislo):
+    if cislo % 2 == 0:
+        print(f"Číslo {cislo} je sudé")
+    else:
+        print(f"Číslo {cislo} je liché")    
 
 if __name__ == "__main__":
-    vysledek = faktorial(2)
-    print(vysledek)
-    
+    sude_nebo_liche(5)
+    sude_nebo_liche(1000000)
