@@ -9,3 +9,4 @@ def faktorial(x):
 if __name__ == "__main__":
     vysledek = faktorial(2)
     print(vysledek)
+    
